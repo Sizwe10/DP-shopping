@@ -23,6 +23,7 @@ body {
                 justify-content: space-between;
                 align-items: center;
                 position: sticky;
+                top: 0%;
                 z-index: 999;
                 background-color: #f3f4f6;
                 box-shadow: 0 0 14px rgba(0, 0, 0.3);
@@ -55,7 +56,48 @@ body {
 .navbar .menu li a i{
                 color: #f63e4e;
 }
-
+  
 .navbar .menu li a :hover {
                 border-bottom: 4px solid #f63e4e;
+}
+
+/* content*/
+
+.content {
+                background-image: url(60a1c147ba5ec4fc362c67c2052f0aba.webp);
+                background-size: cover;
+                background-repeat: no-repeat;
+                padding: 0 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                color: #424144;
+                height: 70vh;
+}
+
+.content h1{
+                font-size: 40px;
+}
+
+.content p{
+                font-size: 20px;
+                margin-top: 20px;
+}
+
+.content button {
+                margin-top: 30px;
+                padding: 15px 30px;
+                border: none;
+                background: #f63e4e;
+                color: white;
+                font-size: 20px;
+                border-radius: 5px;
+                cursor: pointer;
+} 
+
+.pheading {
+                text-align: center;
+                margin: 50px 0;
+                color: #424144;
 }
