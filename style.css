@@ -101,3 +101,13 @@ body {
                 margin: 50px 0;
                 color: #424144;
 }
+
+/* Products*/
+
+.sec {
+                padding: 10px 5%;
+}
+
+.products .card {
+                width: 310px;
+}
