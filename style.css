@@ -110,7 +110,7 @@ body {
 
 .products {
                 display:grid ;
-                grid-template-columns: repeat(auto-fit, minmax(320px ,1fr)) ;
+                grid-template-columns: repeat(auto-fit, minmax(320px ,1fr))  ;
 }
 
 .products .card {
@@ -165,4 +165,22 @@ body {
                 cursor: pointer;
                 background-color       : #f63e4e;
                 color: white;
+}
+
+/* footer */
+
+footer {
+                background-color: #f3f4f6;
+                height: 10vh;
+}
+
+footer p {
+                text-align: center;
+                line-height: 10vh  ;
+}
+
+footer p a{
+                text-decoration: none;
+                color: #f63e4e;
+                font-weight: bold;
 }
